@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+    display: block;
+}
+nav {
+   
+    text-align: center;
+    display: block;
+}
+div{
+    display: block;
+}
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+   
+}
+main{
+    display: block;
+}
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+textarea {
+    box-sizing: border-box;
+    display: block;
+   /* width: 100%;*/
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+button {
+    background-image: linear-gradient(green,black);
+    color: #F2C94C;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+* {
+    box-sizing: border-box;
+}
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    padding: 1rem;
+
+    /*border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;*/
+   
+}
+div {
+    display: block;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-image: linear-gradient(green,black);
+    color: #F2C94C;
+    text-align: center;
+    display: block;
+}
+.box{
+    width: 100vw;
+    height: 10vh;
+    background-image: linear-gradient(green,black);
+    color: #F2C94C;
+}
+
+
+/*.cen{
+    font-size: 1rem;
+    padding:1rem;
+}*/
+
+
+textarea {
+
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+
+}
+
+                 
+        
+          
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: auto;
+            padding: 1rem;
+
+        } 
+
+    /*button {
+        background-color: var(--primary-color);
+        border: none;
+        margin: 1rem 0rem;
+        padding: 1rem 2rem;
+        font-family: 'Kalam', cursive;
+        font-size: large;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    div {
+        display: block;
+    }
+/*.otp{
+    width: 40%;
+                height: 20vh;   
+                display: block;
+                margin:auto;
+                padding: 1rem;
+                 display:block;
+                 align:center;
+                 margin-top: 2rem;
+                 box-sizing: border-box;
+                 
+}*/
+
+/*output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
